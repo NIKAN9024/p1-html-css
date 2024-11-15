@@ -1,17 +1,17 @@
 nav {
 
-position: fixed; 
-top: 0%;
-left: 0;
-display: flex;
-width: 100vw;
-padding: 2rem;
-min-height: 10vh;
-align-items: center;
-flex-wrap: wrap;
-margin: auto;
-background: #00a8c7;
-justify-content: space-between;
+  position: fixed;
+  top: 0%;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
 }
 
 
@@ -20,10 +20,11 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
-} 
+}
 
 nav a {
   color: white;
@@ -34,9 +35,9 @@ nav img {
   width: 5vw;
 }
 
-.main {
-  margin-top: 
-}
+/* .main {
+  margin-top:
+} */
 
 * {
   margin: 0;
@@ -48,16 +49,18 @@ nav img {
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Goldman", cursive;
   background-image: url(/img/background.jpeg);
   background-size: 100vw;
   background-repeat: no-repeat;
 }
-h1 { 
-  font
+
+h1 {
+
   color: blue;
-  
+
 }
 
 
@@ -66,60 +69,62 @@ h1 {
 
 
 
-  
+
 
 h1 {
   position: absolute;
   text-align: center;
   top: 50%;
-color: white;
-left: 50%;
-transform: translate(-50%,-50%);
-font-size:  xx-large;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
 }
 
 
 /* JAVASCRIPT */
 
 
-.javascriptTxt{
+.javascriptTxt {
   position: absolute;
   top: 30%;
-color: white;
-left: 50%;
-transform: translate(-50%,-50%);
-font-size:  xx-large;
-width: 50vw;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+  width: 50vw;
 
 }
-.JavaYellow{
+
+.JavaYellow {
   color: yellow;
 
 }
 
-.javascriptHolder{
+.javascriptHolder {
   position: absolute;
   margin-top: 40vh;
   margin-left: 40vh;
-width: 25vw;
-height: 15vh;
+  width: 25vw;
+  height: 15vh;
 
 }
 
 
-.javaImage{
+.javaImage {
   float: right;
   width: 15%;
   margin-right: 25vw;
   margin-top: 35vh;
-  
+
 }
 
-.javascript{
+.javascript {
   background-image: none;
   background-color: black;
 }
-.javascript{
+
+.javascript {
   color: #fff;
 }
 
@@ -132,7 +137,7 @@ height: 15vh;
 /* HTML-CSS */
 
 
-.htmlTxt{
+.htmlTxt {
   position: absolute;
   top: 25vh;
   color: black;
@@ -141,14 +146,17 @@ height: 15vh;
   font-size: xx-large;
   width: 25vw;
 }
-.htmlBlue{
+
+.htmlBlue {
   color: blue;
 }
-.cssOrange{
+
+.cssOrange {
   color: orangered;
 
 }
-.htmlHolder{
+
+.htmlHolder {
   /* position: absolute; */
   float: right;
   margin-top: 35vh;
@@ -158,58 +166,63 @@ height: 15vh;
   font-size: 1vw;
 }
 
-.htmlImage{
+.htmlImage {
   float: left;
   width: 20vw;
   margin-left: 25vw;
   margin-top: 30vh;
 }
 
-.html-css{
+.html-css {
   background-image: none;
   background-color: white;
 }
+
 /* .html-css{
   color: black;
 } */
 /* ---------------------------------------------------------------------- */
 
 /* PHP */
-.php{
+.php {
 
-   color: #000;
+  color: #000;
 
 }
-.phpPurple{
+
+.phpPurple {
   color: purple;
 }
-.phpHolder{
+
+.phpHolder {
   float: right;
   margin-top: 40vh;
   margin-right: 20vw;
   width: 30vw;
   height: 50vh;
-  
+
 }
-.phpImage{
+
+.phpImage {
   float: left;
   width: 30vw;
   margin-left: 15vw;
   margin-top: 30vh;
 }
-.php{
+
+.php {
   background-image: none;
   background-color: white;
 }
 
-.phpTxt{
+.phpTxt {
   position: absolute;
   top: 30%;
-color: black;
-left: 50%;
-transform: translate(-50%,-50%);
-font-size:  xx-large;
-width: 50vw;
+  color: black;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+  width: 50vw;
 
 }
 
@@ -222,17 +235,18 @@ width: 50vw;
 
 /* SQL */
 
-.sqlTxt{
+.sqlTxt {
   position: absolute;
   top: 30%;
-color: white;
-left: 50%;
-transform: translate(-50%,-50%);
-font-size:  xx-large;
-width: 50vw;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+  width: 50vw;
 
 }
-.sqlHolder{
+
+.sqlHolder {
   /* position: absolute; */
   float: left;
   margin-top: 40vh;
@@ -244,22 +258,22 @@ width: 50vw;
 
 
 
-.sqlOrange{
+.sqlOrange {
   color: rgb(255, 94, 0);
 }
 
 
 
-.sqlImage{
+.sqlImage {
   float: right;
   width: 20vw;
   margin-right: 15vw;
   margin-top: 40vh;
-  
+
 }
 
 
-.sql{
+.sql {
   background-image: none;
   background-color: black;
   color: #fff;
@@ -268,30 +282,31 @@ width: 50vw;
 
 /* ---------------------------------------------------------------------- */
 
-footer{
-  background-color:  #00a8c7;
+footer {
+  background-color: #00a8c7;
   color: #fff;
-  position:absolute;
+  position: absolute;
   bottom: 0%;
   width: 100vw;
   left: 0;
-  height: 10vh; 
+  height: 10vh;
   text-align: center;
   font-size: 2vh;
   vertical-align: middle;
   line-height: 10vh;
-  }
+}
 
 
 
 ul {
   list-style-type: none;
-  
+
   overflow: hidden;
 }
 
 li {
-  float: left;
+  display: flex;
+  flex-direction: column;
 }
 
 li a {
@@ -299,7 +314,7 @@ li a {
   text-decoration: none;
   text-align: center;
   padding: 0.8rem 1rem;
-  display: inline-block
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -307,12 +322,13 @@ li a {
   position: absolute;
   background-color: white;
   min-width: 20vw;
-  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
   z-index: 1;
+  margin-top: 40px;
 }
 
 .dropdown-content a {
-color: #00a8c7;
+  color: #00a8c7;
   padding: 0.8rem 1rem;
   display: block;
   text-align: left;
@@ -323,8 +339,8 @@ color: #00a8c7;
 }
 
 .dropbtn:hover {
-color: #00a8c7;
-background-color: #e9e9e9;
+  color: #00a8c7;
+  background-color: #e9e9e9;
 }
 
 .dropdown-content a:hover {
